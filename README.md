@@ -7,15 +7,22 @@ then it scan's the resulting ascii fbx and you get a list of Meshes and Material
 
 doc - This program was coded fast und dirty and comes with no doc, read history in relase archive for feature overview.
 
-command line parameters - this Will load file into editor:
-  AutoEditor.exe file.bin  
+command line parameters:
 
+- this will load "file.bin" into AutoEditor:
+  AutoEditor.exe file.bin
+
+- this will insert a line "ACTIVE=1" in matching sections and exit AutoEditor after file was written:
   AutoEditor.exe file.ini /iniadd sectionname* key value
+
+- this will change only existing values in matching sections and exit AutoEditor after file was written:
+  AutoEditor.exe file.ini /inichange sectionname* key value
 
 i.e: 
 AutoEditor.exe file.ini /iniadd LIGHT*,MATERIAL* ACTIVE 1
 is the same as:
 AutoEditor.exe file.ini /iniadd "LIGHT*, MATERIAL*" ACTIVE 1
+
 
 Advanced INI-change dialog:
 ![Imgur Image](https://i.imgur.com/QkPoZCN.png)
