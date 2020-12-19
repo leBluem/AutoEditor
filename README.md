@@ -7,6 +7,7 @@ Poor mans line/text editor. Freeware program for automatic text manipulation via
 Some special use case for kn5/fbx files, it tries to open them too, it uses included "Kn5Unpack.exe" and "fbxConvert.exe" : if kn5: unpack, if binary fbx, convert to ascii, then it scan's the resulting ascii fbx and you get a list of Meshes and Materials + existing dds filenames (leaving behind the unpacked stuff, if kn5 ;) ).
 
 doc - This program was coded fast und dirty and comes with no doc, read history in relase archive for feature overview.
+
 source - its a mess, i almost couldnt get the old code to work, i you really want it - its in delphi with lots of custom components...
 
 command line parameters:
