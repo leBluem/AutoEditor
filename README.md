@@ -31,7 +31,7 @@ is the same as:
 AutoEditor.exe file.ini /iniadd "LIGHT*, MATERIAL*" ACTIVE 1
 ```
 
-Advanced INI-change dialog, you can use wildcards like ? and * everywhere:
+Advanced INI-change dialog, you can use wildcards like ? and * everywhere in this dialog:
 ![Imgur Image](https://i.imgur.com/QkPoZCN.png)
 
 Section Generation with a mask:
