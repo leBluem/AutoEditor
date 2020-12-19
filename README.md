@@ -21,11 +21,12 @@ AutoEditor.exe file.ini /iniadd sectionname* key value
 ```
 AutoEditor.exe file.ini /inichange sectionname* key value
 ```
-i.e: 
+- hint:
+```
 AutoEditor.exe file.ini /iniadd LIGHT*,MATERIAL* ACTIVE 1
 is the same as:
 AutoEditor.exe file.ini /iniadd "LIGHT*, MATERIAL*" ACTIVE 1
-
+```
 
 Advanced INI-change dialog:
 ![Imgur Image](https://i.imgur.com/QkPoZCN.png)
