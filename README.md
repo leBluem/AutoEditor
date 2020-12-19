@@ -16,11 +16,11 @@ command line parameters:
 ```
 AutoEditor.exe file.bin
 ```
-- this will insert a line "ACTIVE=1" in matching sections and exit AutoEditor after file was written:
+- this will insert a line "ACTIVE=1" in matching sections and exits AutoEditor after file was written:
 ```
 AutoEditor.exe file.ini /iniadd sectionname* key value
 ```
-- this will change only existing values in matching sections and exit AutoEditor after file was written:
+- this will change only existing values in matching sections and exits AutoEditor after file was written:
 ```
 AutoEditor.exe file.ini /inichange sectionname* key value
 ```
