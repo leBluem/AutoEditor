@@ -9,14 +9,17 @@ doc - This program was coded fast und dirty and comes with no doc, read history 
 
 command line parameters:
 
-- this will load "file.bin" into AutoEditor:
-  AutoEditor.exe file.bin
+- this will load "file.bin" into AutoEditor, like with normal programs:
+
+AutoEditor.exe file.bin
 
 - this will insert a line "ACTIVE=1" in matching sections and exit AutoEditor after file was written:
-  AutoEditor.exe file.ini /iniadd sectionname* key value
+
+AutoEditor.exe file.ini /iniadd sectionname* key value
 
 - this will change only existing values in matching sections and exit AutoEditor after file was written:
-  AutoEditor.exe file.ini /inichange sectionname* key value
+
+AutoEditor.exe file.ini /inichange sectionname* key value
 
 i.e: 
 AutoEditor.exe file.ini /iniadd LIGHT*,MATERIAL* ACTIVE 1
