@@ -8,4 +8,8 @@ some special use case for kn5/fbx files, it tries to open them too, it uses incl
 if kn5: unpack, if binary fbx, convert to ascii,
 then it scan's the resulting ascii fbx and you get a list of Meshes and Materials + existing dds filenames (leaving behind the unpacked stuff, if kn5 ;)).
 
+Advanced INI-change dialog:
 ![Imgur Image](https://i.imgur.com/QkPoZCN.png)
+
+Section Generation with a mask:
+![Imgur Image](https://i.imgur.com/yIIwrdw.png)
