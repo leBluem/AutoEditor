@@ -8,7 +8,7 @@ Some special use case for kn5/fbx files, it tries to open them too, it uses incl
 
 doc - This program was coded fast und dirty and comes with no doc, read history in relase archive for feature overview.
 
-source - its a mess, i almost couldnt get the old code to work, i you really want it - its in delphi with lots of custom components...
+source - its a mess, i you really want it contact me - its in delphi with lots of custom components...
 
 command line parameters:
 
