@@ -1,5 +1,7 @@
 # AutoEditor
 
+download: https://github.com/leBluem/AutoEditor/releases
+
 Poor mans line/text editor. Freeware program for automatic text manipulation via masks and counters. INI manipulation, search and replace, filter, open save, browse ... usefull for fast generating of a lot of text. 
 
 note: I mostly use it per paste/copy, as saving is the most buggy!
