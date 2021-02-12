@@ -36,3 +36,6 @@ Advanced INI-change dialog, you can use wildcards like ? and * everywhere in thi
 
 Section Generation with a mask:
 ![Imgur Image](https://i.imgur.com/yIIwrdw.png)
+
+v2.6: added list to ini-change dialog
+![Imgur Image](https://i.imgur.com/4uwwy0O.png)
