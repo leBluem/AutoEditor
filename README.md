@@ -38,4 +38,5 @@ Section Generation with a mask:
 ![Imgur Image](https://i.imgur.com/yIIwrdw.png)
 
 v2.6: added list to ini-change dialog
+usefull for a list of meshes and mass-adjusting i.E. LOD_OUT values in existing ".fbx.ini" persistence files
 ![Imgur Image](https://i.imgur.com/4uwwy0O.png)
