@@ -18,11 +18,11 @@ AutoEditor.exe file.bin
 ```
 - this will insert a line "ACTIVE=1" in matching sections and exits AutoEditor after file was written:
 ```
-AutoEditor.exe file.ini /iniadd sectionname* key value
+AutoEditor.exe file.ini /iniadd sectionname* ACTIVE 1
 ```
 - this will change only existing values in matching sections and exits AutoEditor after file was written:
 ```
-AutoEditor.exe file.ini /inichange sectionname* key value
+AutoEditor.exe file.ini /inichange sectionname* RENDERABLE 0
 ```
 - hint:
 ```
